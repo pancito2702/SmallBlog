@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #009933;
+    padding: 20px;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 1%;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(90, 90, 28);
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #009933;
+    color: #fff;
+    width: 200px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #009933;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+main h2 {
+    color: #009933;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+form div {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p-error-crearArt {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(90, 90, 28);
+    font-size: 20px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pen and Pixels - Acerca de</title>
+    <link rel="stylesheet" href="../../css/acercaDe.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pen and Pixels</h1>
+        <nav>
+            <ul>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="crearArticulo.php">Crear Artículo</a></li>
+                <li><a href="acercaDe.php">Acerca de</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
+                <li><a href="registro.php">Registro</a></li>
+                <li><a href="login.php">Iniciar Sesión</a></li>
+                <?php
+                    session_start();
+                    if (isset($_SESSION["usuario"])) {
+                        echo "<li> Usuario: ". $_SESSION["usuario"]. "</li>";
+                        echo "<li><a href='../controller/logoutController.php' >Cerrar Sesión </a></li>";
+                    }
+                ?>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Acerca de</h2>
+        <p>Acerca de Pen and Pixels: Una plataforma estudiantil para explorar el mundo de los blogs</p>
+
+        <p>Bienvenidos a Pen and Pixels, una página web creada por un grupo de estudiantes de la Universidad Fidélitas
+            con el propósito de compartir ideas, historias y conocimientos a través de la poderosa herramienta de los
+            blogs. Aquí, queremos fomentar la creatividad, el intercambio de experiencias y el aprendizaje continuo.</p>
+
+        <p> En Pen and Pixels, creemos en el poder de las palabras y la importancia de expresarse libremente. Nuestro
+            objetivo es brindar un espacio virtual donde cualquier persona, sin importar su origen, pueda compartir sus
+            pensamientos, pasiones y perspectivas únicas. Ya sea que estés interesado en la moda, la tecnología, la
+            música, los viajes o cualquier otro tema, encontrarás un lugar en nuestra comunidad.</p>
+
+        <p> Nuestro equipo está compuesto por estudiantes apasionados por la comunicación y el mundo digital. Nos
+            esforzamos por ofrecer contenido de calidad y variedad en forma de blogs escritos con dedicación y cuidado.
+            Además, nos encargamos de seleccionar cuidadosamente a los autores invitados, quienes aportan una amplia
+            gama de experiencias y conocimientos en diferentes áreas.</p>
+
+        <p> En Pen and Pixels, valoramos la diversidad y promovemos un ambiente inclusivo. Creemos que todos tienen una
+            historia que contar y algo valioso que compartir. No importa si eres un estudiante, un profesional o
+            simplemente alguien apasionado por un tema en particular, te invitamos a unirte a nuestra comunidad y
+            convertirte en parte de esta aventura de escritura y descubrimiento. </p>
+
+        <p> Te invitamos a explorar los blogs y artículos que nuestros talentosos escritores han creado. Esperamos que
+            encuentres inspiración, aprendas algo nuevo y te diviertas mientras navegas por nuestras páginas. Si deseas
+            participar, no dudes en ponerte en contacto con nosotros y compartir tu propio contenido. </p>
+
+        <p> Gracias por visitar Pen and Pixels. ¡Esperamos que disfrutes de tu tiempo aquí y que te unas a nuestra
+            comunidad de escritores y lectores apasionados!</p>
+    </main>
+   
+    <footer>
+        <p>&copy; 2023 Pen and Pixels. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

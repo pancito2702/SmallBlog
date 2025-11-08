@@ -1,0 +1,102 @@
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #009933;
+    padding: 20px;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 1%;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+nav ul li a:hover {
+    background-color: rgb(90, 90, 28);
+}
+
+main {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+main h2 {
+    color: #009933;
+}
+
+main p {
+    color: #333;
+    line-height: 1.5;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    background-color: #009933;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+form button {
+    width: 100px;
+    color: #fff;
+    height: 40px;
+    background-color: #009933;
+    border-style: none;
+    border-radius: 40px;
+}
+
+.p-contacto-error {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(90, 90, 28);
+    font-size: 20px;
+}

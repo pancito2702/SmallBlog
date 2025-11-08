@@ -1,0 +1,107 @@
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #009933;
+    padding: 20px;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 1%;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(90, 90, 28);
+}
+
+
+section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+form h1 {
+    color: #009933;
+    text-align: center;
+}
+
+form label {
+    text-align: center;
+}
+
+form input {
+    width: 200px;
+}
+
+form h1 {
+    width: 200px;
+    color: #009933;
+    text-align: center;
+}
+
+form button {
+    color: #fff;
+    height: 40px;
+    background-color: #009933;
+    border-style: none;
+    border-radius: 40px;
+}
+
+form button:hover {
+    background-color: rgb(90, 90, 28);
+}
+
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    background-color: #009933;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.p-registro {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(90, 90, 28);
+    font-size: 20px;
+}
